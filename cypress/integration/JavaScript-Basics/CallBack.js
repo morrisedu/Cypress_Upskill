@@ -1,5 +1,3 @@
-const { Callbacks } = require("cypress/types/jquery");
-
 const posts = [
     {title: "Post One", body: "This is post one."},
     {title: "Post Two ", body: "This is post two."}
@@ -15,10 +13,10 @@ function getPosts() {
     }, 1000)
 }
 
-function createPost(post, Callbacks) {
+function createPost(post, callback) {
     setTimeout(() => {
         posts.push(post);
-        Callbacks;
+        callback;
     }, 2000)
 }
 

@@ -25,3 +25,16 @@ cy.get("h1").should("have.value", "Cypress")
 cy.get(locator).first()
 cy.get(locator).last()
 cy.get(locator).eq(1).click()
+
+// Navigation
+cy.go("back")
+cy.get("tbody tr").nextAll.click({multiple: true})
+cy.get(locator).prev.click()
+cy.get(locator).prevAll.click()
+
+// Hover handling
+cy.get(locator).trigger("mouseover").click()
+cy.get(locator).trigger("mouseup").click()
+
+// Text box input
+cy.get("#username").clear().type("username")
