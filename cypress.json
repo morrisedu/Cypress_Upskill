@@ -1,3 +1,13 @@
 {
-  "baseUrl": "http://practice.cybertekschool.com/radio_buttons"
+  "baseUrl": "https://wikipedia.org",
+  "defaultCommandTimeout": 4000,
+  "pageLoadTimeout": 60000,
+  "viewportHeight": 1028,
+  "viewportWidth": 1920,
+  "failOnStatusCode": false,
+  "chromeWebSecurity": false,
+  "env": {
+    "username": "",
+    "password": ""
+  }
 }

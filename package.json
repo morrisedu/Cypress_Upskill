@@ -4,13 +4,14 @@
   "description": "Cypress End-To-End Testing",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^9.5.1"
+    "cypress": "^9.5.1",
+    "cypress-downloadfile": "^1.2.1"
   },
   "devDependencies": {
     "cypress-file-upload": "^5.0.8"
   },
   "scripts": {
-    "test": "cypress run -b chrome --headless --spec 'cypress/integration/CypressIntroduction/Checkbox.spec.js'"
+    "test": "cypress run -b chrome --headless --spec 'cypress/integration/CypressIntroduction/Day_1/Checkbox.spec.js'"
   },
   "repository": {
     "type": "git",

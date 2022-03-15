@@ -20,3 +20,13 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
+
+// Import commands.js using ES2015 syntax:
+const {downloadFile} = require('cypress-downloadfile/lib/addPlugin')
+
+module.exports = (on, config) => {
+    // "on" is used to hook into various events Cypress emits
+    // "config" is the resolved Cypress config
+
+    on('task', {downloadFile})
+}

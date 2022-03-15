@@ -1,0 +1,6 @@
+{
+  "username": "admin",
+  "password": "Test21234",
+  "Url": "https://staging.example.com",
+  "quick_launch": ["Assign Leave", "Leave List", "Timesheet", "Apply Leave", "My Leave", "My Timesheet"]
+}
